@@ -1,0 +1,60 @@
+==INSTRUCTIONS=======================================
+
+-> Processor's instructions description
+
+==NOP================================================
+	    000000000000|000 -> NOP
+
+==ADD================================================
+	   xxxxxxxxxx|rrr|001 -> ADD        
+
+rrr        -> register number  
+xxxxxxxxxx -> whatever 	
+
+==SUB================================================
+	   f|???????????|q|010 -> SUB
+	  f|xxxxxxxx|rrr|0|010 -> SUB with register 
+	   f|ccccccccccc|1|010 -> SUB with constant
+
+q  			-> sub with constant?
+f 		    -> flag
+rrr         -> register number           
+xxxxxxxxx   -> whatever
+ccccccccccc -> constant
+
+==LD=================================================
+	    f|cccccccccccc|011 -> LD
+
+f	         -> flag
+cccccccccccc -> constant
+
+==JMP/JR================================================
+	  xxxx|????????|r|100 -> JUMP
+	  xxxxx|eeeeeee|0|100 -> JMP(absolute)
+	  xxff|dddddddd|1|100 -> JR(relative)
+	    00 -> flag C
+	    01 -> flag N
+	    10 -> flag O
+	    11 -> flag Z
+
+r        -> Is a relative jump?
+xxxx     -> whatever
+ff       -> comparation flag
+eeeeeee  -> address 
+dddddddd -> delta
+
+==MOV================================================
+	 xxxxxxxxxx|d|aaa|101 -> MOV
+	 		   |0| -> save in accumulator
+	 		   |1| -> save in register
+
+d 		   -> destination
+aaa        -> register number	  
+xxxxxxxxxx -> whatever
+
+==CMP=================================================
+ 	xxxxxxxxxx|rrr|111 -> CMP
+
+rrr        -> register number
+xxxxxxxxxx -> whatever
+======================================================

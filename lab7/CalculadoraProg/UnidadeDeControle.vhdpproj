@@ -1,0 +1,17 @@
+﻿<Project>
+  <ItemGroup>
+    <File Include="bancoReg.vhd" />
+    <File Include="maq_estados.vhd" />
+    <File Include="mux16x8.vhd" />
+    <File Include="processador.vhd" />
+    <File Include="processador_tb.vhd" />
+    <File Include="reg15bits.vhd" />
+    <File Include="reg16bits.vhd" />
+    <File Include="rom.vhd" />
+    <File Include="ula.vhd" />
+    <File Include="un_controle.vhd" />
+  </ItemGroup>
+  <PropertyGroup>
+    <HardwareStartPath>processador.vhd</HardwareStartPath>
+  </PropertyGroup>
+</Project>

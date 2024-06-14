@@ -1,0 +1,31 @@
+
+# auto-generated
+[Libraries]
+work.files = [
+	'bancoReg.vhd',
+	'maq_estados.vhd',
+	'mux16x8.vhd',
+	'processador.vhd',
+	'processador_tb.vhd',
+	'reg15bits.vhd',
+	'reg16bits.vhd',
+	'rom.vhd',
+	'ula.vhd',
+	'un_controle.vhd'
+]
+[libraries.work]
+files = [
+	'bancoReg.vhd',
+	'maq_estados.vhd',
+	'mux16x8.vhd',
+	'processador.vhd',
+	'processador_tb.vhd',
+	'reg15bits.vhd',
+	'reg16bits.vhd',
+	'rom.vhd',
+	'ula.vhd',
+	'un_controle.vhd'
+]
+# auto-generated-end[Libraries]
+work.files = [
+]
