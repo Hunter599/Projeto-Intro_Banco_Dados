@@ -1,0 +1,5 @@
+host="127.0.0.1"
+database="university"
+user="postgres"
+password="ckd5998506"
+db_port ="5433"
